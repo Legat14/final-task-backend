@@ -8,7 +8,7 @@ import * as serverService from './services/server.service';
   try {
     const UserName = 'DBAdmin';
     const Password = 'Enegq89GV8aHw0gH';
-    const clusterInfo = 'reactfinaltaskcluster.5f6psjh'
+    const clusterInfo = 'reactfinaltaskcluster.5f6psjh';
     await mongoose.connect(`mongodb+srv://${UserName}:${Password}@${clusterInfo}.mongodb.net/managerApp`);
     serverService.server.listen(process.env.PORT || PORT, function () {
       console.log('Сервер ожидает подключения...');
