@@ -16,8 +16,14 @@ git clone {repository URL}
 ```
 
 ## Connect to your DataBase on MongoDB
-- open final-task-backend/Project management application/src/index.ts. In mongoose.connect method replace ${} by userName, Password, ClasterInfo and Application Name from Prerequisites
-- crete commit and push it
+* open final-task-backend/Project management application/src/index.ts. In mongoose.connect method replace ${} by userName, Password, ClasterInfo and Application Name from Prerequisites
+* crete commit and push it
+
+## Launch on local PC
+* enter "npm run build" in console
+* enter "npm run start" in console
+* if succeeded, you can open swagger by [link](http://localhost:3000/api-docs/)
+* if not, try to turn off (or turn on) VPN and enter "npm run start" again
 
 ## Deploy
 1. https://railway.app/
